@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  Dancer.swift
 //  PROTOCOLS
 //
 //  Created by Oleksandr Bardashevskyi on 5/3/19.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
+class Dancer: NSObject, Patient {
+    
+    var kindOfClass: String = ""
+    var name: String = ""
+    
+    var favouriteDance = String()
+    func dance() {
         
     }
-
-
 }
-

@@ -12,6 +12,10 @@
 		4FFF9AB6227C29EC00DF9435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FFF9AB4227C29EC00DF9435 /* Main.storyboard */; };
 		4FFF9AB8227C29EE00DF9435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FFF9AB7227C29EE00DF9435 /* Assets.xcassets */; };
 		4FFF9ABB227C29EE00DF9435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FFF9AB9227C29EE00DF9435 /* LaunchScreen.storyboard */; };
+		4FFF9AC3227C2E2C00DF9435 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF9AC2227C2E2C00DF9435 /* Student.swift */; };
+		4FFF9AC5227C2E7700DF9435 /* Dancer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF9AC4227C2E7700DF9435 /* Dancer.swift */; };
+		4FFF9AC7227C2EB900DF9435 /* Developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF9AC6227C2EB900DF9435 /* Developer.swift */; };
+		4FFF9AC9227C2FF600DF9435 /* PatientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF9AC8227C2FF600DF9435 /* PatientProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		4FFF9AB7227C29EE00DF9435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FFF9ABA227C29EE00DF9435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FFF9ABC227C29EE00DF9435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FFF9AC2227C2E2C00DF9435 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		4FFF9AC4227C2E7700DF9435 /* Dancer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dancer.swift; sourceTree = "<group>"; };
+		4FFF9AC6227C2EB900DF9435 /* Developer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Developer.swift; sourceTree = "<group>"; };
+		4FFF9AC8227C2FF600DF9435 /* PatientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				4FFF9AB0227C29EC00DF9435 /* AppDelegate.swift */,
+				4FFF9AC2227C2E2C00DF9435 /* Student.swift */,
+				4FFF9AC6227C2EB900DF9435 /* Developer.swift */,
+				4FFF9AC4227C2E7700DF9435 /* Dancer.swift */,
+				4FFF9AC8227C2FF600DF9435 /* PatientProtocol.swift */,
 				4FFF9AB2227C29EC00DF9435 /* ViewController.swift */,
 				4FFF9AB4227C29EC00DF9435 /* Main.storyboard */,
 				4FFF9AB7227C29EE00DF9435 /* Assets.xcassets */,
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FFF9AC7227C2EB900DF9435 /* Developer.swift in Sources */,
+				4FFF9AC5227C2E7700DF9435 /* Dancer.swift in Sources */,
 				4FFF9AB3227C29EC00DF9435 /* ViewController.swift in Sources */,
+				4FFF9AC3227C2E2C00DF9435 /* Student.swift in Sources */,
 				4FFF9AB1227C29EC00DF9435 /* AppDelegate.swift in Sources */,
+				4FFF9AC9227C2FF600DF9435 /* PatientProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

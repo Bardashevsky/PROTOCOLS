@@ -15,7 +15,54 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let dancer1 = Dancer()
+        let dancer2 = Dancer()
+        dancer1.name = "Dancer1"
+        dancer1.kindOfClass = "Dancer"
+        dancer2.name = "Dancer2"
+        dancer2.kindOfClass = "Dancer"
+        
+        let student1 = Student()
+        let student2 = Student()
+        let student3 = Student()
+        student1.name = "Student1"
+        student1.universityName = "University"
+        student1.kindOfClass = "Student"
+        student2.name = "Student2"
+        student2.kindOfClass = "Student"
+        student2.universityName = "University"
+        student3.name = "Student3"
+        student3.kindOfClass = "Student"
+        student3.universityName = "University"
+        
+        let developer1 = Developer()
+        developer1.name = "Developer"
+        developer1.kindOfClass = "Developer"
+        
+        let patients: [Patient] = [dancer1, dancer2, student1, student2, student3, developer1]
+        
+        for object in patients {
+            
+            object.howIsYourFamilly()
+            object.howIsYourJob()
+            
+            if let student = object as? Student {
+                print(student.universityName)
+            }
+            
+            print(object.name)
+            if !object.areYouOK() {
+                object.takePill()
+                if !object.areYouOK() {
+                    object.makeShot()
+                }
+            } else {
+                print("Go away from here!")
+            }
+        }
+        
+        
         return true
     }
 
